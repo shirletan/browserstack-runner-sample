@@ -4,7 +4,7 @@
     "test_path": "index.html",
     "browsers": [
         {
-            "browser": "firefox",
+            "browser": "chrome",
             "browser_version": "latest",
             "os": "OS X",
             "os_version": "Lion"
