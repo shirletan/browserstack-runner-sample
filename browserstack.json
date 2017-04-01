@@ -1,6 +1,6 @@
 {
-    "username": "BROWSERSTACK_USER",
-    "key": "BROWSERSTACK_KEY",
+    "username": "qitan1",
+    "key": "zRqN1zfoJ8vzNnfCmZy9",
     "test_path": "index.html",
     "browsers": [
         {
