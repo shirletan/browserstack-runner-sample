@@ -1,0 +1,16 @@
+language: node_js
+node_js:
+- "4"
+- "stable"
+sudo: required
+dist: trusty
+before_install:
+- npm install google-closure-library
+# Symlink closure library
+- ln -s $(npm root)/google-closure-library ../closure-library
+
+before_script:
+script:
+  - ./node_modules/.bin/browserstack-runner 
+os:
+  - linux 
