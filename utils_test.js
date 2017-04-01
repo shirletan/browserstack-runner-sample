@@ -23,7 +23,7 @@ function test_genUid() {
   var uuids = {};
   for (var i = 0; i < 1000; i++) {
     var uuid = Blockly.utils.genUid();
-    assertFalse('UUID different: ' + uuid, uuid in uuids);
+    assertTrue('UUID different: ' + uuid, uuid in uuids);
     uuids[uuid] = true;
   }
 }
